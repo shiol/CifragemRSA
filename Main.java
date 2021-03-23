@@ -24,7 +24,7 @@ class Main {
 
     double m = 2;
     double enc = Math.pow(m, e) % n;
-    System.out.printf("Encriptar: %d => %f \n", m, enc);
+    System.out.printf("Encriptar: %f => %f \n", m, enc);
 
     double dec = Math.pow(enc, d) % n;
     System.out.printf("Decriptar: %f => %f \n", enc, dec);
